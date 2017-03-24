@@ -1,0 +1,54 @@
+<?page title="new page title" contentType="text/html;charset=UTF-8"?>
+<zk>
+	<window title="new page title" border="normal">
+		<tree>
+			<treechildren>
+				<treeitem>
+					<treerow id="file1" draggable="true">
+						<treecell label="file1" />
+					</treerow>
+				</treeitem>
+
+				<treeitem>
+					<treerow id="file2" draggable="true">
+						<treecell label="file2" />
+					</treerow>
+				</treeitem>
+
+				<treeitem>
+					<treerow id="folder1" droppable="true" >
+						<treecell label="folder1" />
+					</treerow>
+					<treechildren>
+						<treeitem>
+							<treerow>
+								<treecell label="file4" />
+							</treerow>
+						</treeitem>
+						<treeitem>
+							<treerow draggable="true">
+								<treecell label="file3" />
+							</treerow>
+						</treeitem>
+					</treechildren>
+				</treeitem>
+
+				<treeitem>
+					<treerow droppable="true"  >
+						<treecell label="folder2" />
+					</treerow>
+
+					<treechildren>
+						<treeitem>
+							<treerow  >
+								<treecell label="file5" />
+							</treerow>
+						</treeitem>
+					</treechildren>
+
+				</treeitem>
+
+			</treechildren>
+		</tree>
+	</window>
+</zk>
